@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "UpLoadService", ".", "{EAEF27AB-FC2C-4CEE-9FDD-606BC8A54D09}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60158"
+		Debug.AspNetCompiler.PhysicalPath = "..\UpLoadService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60158\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60158"
+		Release.AspNetCompiler.PhysicalPath = "..\UpLoadService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60158\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "60158"
+		SlnRelativePath = "..\UpLoadService\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileUploaderGUI", "..\FileUploaderGUI\FileUploaderGUI.csproj", "{030A4A30-F6E4-43F5-8568-2DD5473105A3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EAEF27AB-FC2C-4CEE-9FDD-606BC8A54D09} = {EAEF27AB-FC2C-4CEE-9FDD-606BC8A54D09}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAEF27AB-FC2C-4CEE-9FDD-606BC8A54D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAEF27AB-FC2C-4CEE-9FDD-606BC8A54D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAEF27AB-FC2C-4CEE-9FDD-606BC8A54D09}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAEF27AB-FC2C-4CEE-9FDD-606BC8A54D09}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{030A4A30-F6E4-43F5-8568-2DD5473105A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{030A4A30-F6E4-43F5-8568-2DD5473105A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{030A4A30-F6E4-43F5-8568-2DD5473105A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{030A4A30-F6E4-43F5-8568-2DD5473105A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14C533CD-9659-4670-B884-84283903AFE6}
+	EndGlobalSection
+EndGlobal
